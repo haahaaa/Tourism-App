@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="eightFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Melbourne Museum and Royal Exhibition Building"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/melbournemuseum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="A short tram ride from the CBD, the Melbourne Museum is surrounded by beautiful gardens and parkland. This modern purpose-built museum houses a diverse collection depicting society and cultures. Highlights include Bunjilaka Aboriginal Cultural Centre; the Phar Lap exhibit, about Australia's greatest racehorse; and the Children's Gallery, a series of hands-on activities designed to stimulate and engage youngsters.  Adjacent to the Melbourne Museum is the elaborate Royal Exhibition Building. Built in 1880 to host Melbourne's International Exhibition, the building also held the first Commonwealth Parliament of Australia in 1901. Regular tours are available, and the building is still used for exhibitions and special events." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location: 11 Nicholson Street, Carlton"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="sevenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Arcades and Laneways"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/arcadesandlaneways" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Wandering the labyrinth of lanes and alleyways around Flinders, Collins, and Bourke Streets reveals elegant, interesting, and quirky Melbourne at its best. The jewel in the crown is the magnificent Block Arcade in Collins Street. With its mosaic floor, period details, and unique shops, this is the place where late 19th-century gentry promenaded, coining the phrase, &quot;doing the block.&quot; It's worth lining up for a morning or afternoon tea at the Hopetoun Tearooms. This Melbourne icon dates back to 1892 and is the only original shop still in the arcade today. The opulent Royal Arcade is Melbourne's oldest arcade, and Flinders and Degraves Lanes are also well worth exploring. Several companies run guided walking tours of the lanes and alleyways." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location:335 Bourke St, Melbourne VIC "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

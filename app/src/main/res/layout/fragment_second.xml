@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="secondFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Royal Botanic Gardens"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="266dp"
+        android:src="@drawable/royalbotanicgardens" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="In the heart of green parkland extending south of the Yarra River, about two kilometers from the CBD, the Royal Botanic Gardens are among the finest of their kind in the world. Established in 1846, the gardens encompass two locations: Melbourne and Cranbourne. The Melbourne Gardens cover an area of 38 hectares with more than 8,500 species of plants, including many rare specimens. The Ian Potter Foundation Children's Garden is designed to encourage the next generation of gardeners, and the Aboriginal Heritage Walk is a popular tour that looks into the rich heritage of indigenous Australians. Visiting the gardens is one of the best free things to do in Melbourne. In summer, live theater is a highlight of the gardens, and a moonlight cinema is set up under the stars. This is also a popular spot for a picnic by the lake or a traditional high tea at The Terrace cafe." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location: Birdwood Ave, South Yarra"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</LinearLayout>

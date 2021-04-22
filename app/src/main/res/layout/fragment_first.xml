@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="firstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Federation Square"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/federationsquare" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="When Federation Square opened in 2002 to commemorate 100 years of federation, it divided Melburnians. There were those who loved it and those who hated it. Either way, it has become an integral part of the city and a great place for tourists to start their sightseeing. Located opposite Flinders Street Station, a major public transport hub, the building's ultra-modern design of open and closed spaces contrasts with the surrounding Victorian architecture. With more than 2,000 events annually, you can always find entertainment in the central outdoor performance space and intimate indoor venues. Federation Square also houses the Ian Potter Centre: NGV Australia, dedicated to Australian art, and the Australian Centre for the Moving Image (ACMI). More commonly called &quot;Fed Square,&quot; it is also one of the largest free Wi-Fi sites in Australia." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Location: Corner Swanston and Flinders Streets, Melbourne"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

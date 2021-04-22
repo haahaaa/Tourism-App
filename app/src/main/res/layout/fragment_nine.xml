@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="nineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="City Circle Tram Tour"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/citycircletram" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Trams are a big part of Melbourne's public transport system, and the City Circle Tram offers tourists a free and easy way of seeing the CBD. Accompanied by a commentary, the hop-on, hop-off heritage tram passes many of the grand historic buildings, including Parliament House, the Old Treasury Building, Princess Theatre, and the Windsor Hotel. The trams run every 12 minutes and take about 50 minutes to complete the entire loop." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Location: Corner Swanston and Flinders Streets, Melbourne"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="sixFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Eureka Tower"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/eurekatower" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Named in recognition of The Eureka Stockade, the 1854 rebellion of prospectors in the Victorian goldfields, the Eureka Tower stands 91 stories above ground in the heart of Southbank. The skyscraper's gold crown and gold-plated windows add to the theme and literally sparkle when the sun catches the top of the building. Skydeck, on the 88th floor, affords the highest public view in any building in the Southern Hemisphere. Adding to the experience is The Edge, a glass cube that slides out three meters from the building for vertigo-free visitors."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location: 7 Riverside Quay, Southbank"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

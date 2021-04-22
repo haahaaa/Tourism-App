@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="fiveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="National Gallery of Victoria"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/nationalgallery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="The oldest public art gallery in Australia, the National Gallery of Victoria holds more than 70,000 works of art in two city locations. The international collection is housed in the St. Kilda Road building, originally opened in 1968 and extensively renovated in 2003. The building is renowned for The Great Hall, where visitors are encouraged to lie on the floor and gaze at the colorful stained glass ceiling. The extensive Australian collection is held in the Ian Potter Gallery in Federation Square, featuring the history of Australian art from Aboriginal works through to the Heidelberg School, and contemporary mixed media. One of the highlights is the large triptych format, The Pioneer by Frederick McCubbin.  " />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location: St. Kilda Road, Melbourne and Federation Square"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>

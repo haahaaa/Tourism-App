@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="tenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Melbourn Zoo"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/melbournezoo"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text='Although the 22-hectare Melbourne Zoo dates back to 1862, the 320-plus species of animals have the best of modern facilities in state-of-the-art enclosures. The award-winning Trail of the Elephants is an insight into the lives of the resident Asian elephants in a traditional village-garden setting. Another highlight is the Orang-utan Sanctuary, where the animals live in their treetop home. With many wild encounters, including "roar and snore," twilight music concerts, and behind-the-scene tours of some enclosures, Melbourne Zoo offers animal-lovers a fun-packed experience.' />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Location: Elliott Ave, Parkville"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</LinearLayout>
